@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_huZMMIRyEeuvOsnSS6NBGQ" name="Act2Ejer1">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_h4-EgIRyEeuvOsnSS6NBGQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_XXmlQIR3EeuvOsnSS6NBGQ" name="clases.ito.poo">
+    <packagedElement xmi:type="uml:Class" xmi:id="_yne28IR3EeuvOsnSS6NBGQ" name="Composicion">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GIjC0IR4EeuvOsnSS6NBGQ" name="nombre" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_L2F0cIR4EeuvOsnSS6NBGQ" name="duracion" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Q-aZIIR4EeuvOsnSS6NBGQ" name="interpretes" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_XQ0LUIR4EeuvOsnSS6NBGQ" name="fechaRegistro" visibility="private" type="_dUzuEIR4EeuvOsnSS6NBGQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vfJXkIR4EeuvOsnSS6NBGQ" name="fechaEstreno" visibility="private" type="_dUzuEIR4EeuvOsnSS6NBGQ"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_1PAdYIR4EeuvOsnSS6NBGQ" name="ActInterpretes" concurrency="guarded">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_8M4OcIR4EeuvOsnSS6NBGQ" name="newInterprete">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_BZgEUIR5EeuvOsnSS6NBGQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_dUzuEIR4EeuvOsnSS6NBGQ" name=" java.time.LocalDate"/>
+</uml:Model>
